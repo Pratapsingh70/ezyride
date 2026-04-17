@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ezyRide - Rent Bikes, Cars & CNG</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <i class="fas fa-biking"></i>
+                EzyRide
+            </div>
+            <div class="contact-info">
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>07 Maholi, Mathura</span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>+91 98765 43210</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nav-container">
+            <button class="hamburger" id="hamburgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#bikes">Bike Rent</a></li>
+                    <li><a href="#cars">Car Rent</a></li>
+                    <li><a href="#cng">CNG Rent</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+       
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="hero-tag">Travel Smart, Drive Green</span>
+            <h1>Discover the easiest way to rent bikes, cars, and CNG vehicles.</h1>
+            <p>Choose your ride, book instantly, and enjoy flexible hourly rentals with transparent pricing and trusted service.</p>
+            <div class="hero-actions">
+                <button class="btn btn-primary book-btn" data-vehicle="general">Book Now</button>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-images">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="Travel road" />
+            <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80" alt="City ride" />
+            <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=800&q=80" alt="Adventure travel" />
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="section-header">
+            <h2>How It Works</h2>
+            <p>Simple, quick, and transparent—7 easy steps to get your ride</p>
+        </div>
+        <div class="steps-grid">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h3>Reservation</h3>
+                <p>Choose your dates and vehicle type. Our availability calendar shows real-time options.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h3>Vehicle Selection</h3>
+                <p>Browse our collection and select the perfect bike, car, or CNG for your needs.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h3>Rental Agreement</h3>
+                <p>Review and sign rental terms. Verify your ID and ensure all documents are complete.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">4</div>
+                <h3>Vehicle Pickup</h3>
+                <p>Collect your vehicle. We'll conduct a brief inspection and provide you with fuel/CNG info.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">5</div>
+                <h3>Rental Period</h3>
+                <p>Enjoy your ride! Drive safely and follow all traffic laws. Support is always one call away.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">6</div>
+                <h3>Vehicle Return</h3>
+                <p>Return the vehicle in the same condition. Final inspection and receipt confirmation.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">7</div>
+                <h3>Payment & Finalization</h3>
+                <p>Settle any charges, collect your deposit back, and receive your rental receipt.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & WhatsApp Section -->
+    <section class="contact-section">
+        <h2>Need Help? Reach Out</h2>
+        <p class="section-subtitle">We're here 24/7 to support your rental journey</p>
+        <div class="contact-options">
+            <div class="contact-card phone-card">
+                <i class="fas fa-phone"></i>
+                <h3>Call Us Directly</h3>
+                <p>Speak with our team in real-time</p>
+                <a href="tel:+917895309732" class="contact-btn">+91 7895 309 732</a>
+            </div>
+            <div class="contact-card whatsapp-card">
+                <i class="fab fa-whatsapp"></i>
+                <h3>Message on WhatsApp</h3>
+                <p>Quick responses, instant booking help</p>
+                <a href="https://wa.me/917895309732?text=Hi+ezyRide!+I+want+to+book+a+vehicle" target="_blank" class="contact-btn whatsapp-btn">Start Chat</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="section-header">
+            <h2>What People Say About Us</h2>
+            <p>Real stories from our happy customers</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"ezyRide made my business travel so easy! Booking a car was instant, and the vehicle was clean and well-maintained. Highly recommended!"</p>
+                <p class="testimonial-author">Rajesh Kumar</p>
+                <p class="testimonial-role">Business Consultant</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"The best bike rental service in town! Fair pricing, professional staff, and bikes in perfect condition. I rent every month!"</p>
+                <p class="testimonial-author">Priya Singh</p>
+                <p class="testimonial-role">College Student</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"Love their CNG options! Eco-friendly, affordable, and the customer support is incredible. ezyRide cares about their customers."</p>
+                <p class="testimonial-author">Amit Patel</p>
+                <p class="testimonial-role">Environmental Advocate</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"Rented a car for a family trip—everything was smooth and hassle-free. The WhatsApp support is super helpful!"</p>
+                <p class="testimonial-author">Deepa Verma</p>
+                <p class="testimonial-role">Family Travel Blogger</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Book Your Ride</h2>
+            <form id="bookingForm" target="_blank" action="" method="POST">
+                <div class="form-group">
+                    <label for="vehicleType">Select Vehicle Type:</label>
+                    <select id="vehicleType" name="vehicleType" required>
+                        <option value="">Choose a vehicle...</option>
+                        <option value="Bike">Bike</option>
+                        <option value="Car">Car</option>
+                        <option value="CNG">CNG</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="rentalDate">Rental Date:</label>
+                    <input type="date" id="rentalDate" name="rentalDate" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="rentalDays">Number of Days:</label>
+                    <input type="number" id="rentalDays" name="rentalDays" min="1" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Additional Details:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Any special requests?"></textarea>
+                </div>
+                
+                <button type="submit" class="btn-submit">Submit Booking</button>
+            </form>
+        </div>
+    </div>
+    
+    <section id="bikes" class="services hidden-section">
+        <h2>Bike Rental Menu</h2>
+        <p class="section-subtitle">Choose from our top bikes with hourly pricing, modern comfort, and reliable performance.</p>
+        <div class="service-grid">
+            <div class="service-card">
+                <img src="images/yamaha-fz-s-v3.jpg" alt="Yamaha FZ-S V3" class="bike-image">
+                <h3>Yamaha FZ-S V3</h3>
+                <p class="bike-price">₹99 / hour</p>
+                <ul class="bike-details">
+                    <li>150cc performance</li>
+                    <li>Sharp street styling</li>
+                    <li>Perfect for city cruising</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Bike">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/hero-splendor-plus.jpg" alt="Hero Splendor Plus" class="bike-image">
+                <h3>Hero Splendor Plus</h3>
+                <p class="bike-price">₹75 / hour</p>
+                <ul class="bike-details">
+                    <li>100cc efficient engine</li>
+                    <li>Best for everyday travel</li>
+                    <li>Easy handling in traffic</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Bike">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/tvs-apache-rtr-160.jpg" alt="TVS Apache RTR 160" class="bike-image">
+                <h3>TVS Apache RTR 160</h3>
+                <p class="bike-price">₹119 / hour</p>
+                <ul class="bike-details">
+                    <li>160cc sporty ride</li>
+                    <li>Responsive braking</li>
+                    <li>Ride-ready handling</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Bike">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/bajaj-pulsar-ns200.jpg" alt="Bajaj Pulsar NS200" class="bike-image">
+                <h3>Bajaj Pulsar NS200</h3>
+                <p class="bike-price">₹145 / hour</p>
+                <ul class="bike-details">
+                    <li>200cc torque power</li>
+                    <li>Racing-inspired design</li>
+                    <li>Long distance comfort</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Bike">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/honda-activa-6g.jpg" alt="Honda Activa 6G" class="bike-image">
+                <h3>Honda Activa 6G</h3>
+                <p class="bike-price">₹85 / hour</p>
+                <ul class="bike-details">
+                    <li>110cc agile scooter</li>
+                    <li>Smooth city riding</li>
+                    <li>Lightweight and easy</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Bike">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/royal-enfield-meteor-350.jpg" alt="Royal Enfield Meteor 350" class="bike-image">
+                <h3>Royal Enfield Meteor 350</h3>
+                <p class="bike-price">₹225 / hour</p>
+                <ul class="bike-details">
+                    <li>350cc cruiser comfort</li>
+                    <li>Classic long-distance ride</li>
+                    <li>Premium build and feel</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Bike">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/suzuki-access-125.jpg" alt="Suzuki Access 125" class="bike-image">
+                <h3>Suzuki Access 125</h3>
+                <p class="bike-price">₹95 / hour</p>
+                <ul class="bike-details">
+                    <li>125cc smooth scooter</li>
+                    <li>Fuel-efficient and comfy</li>
+                    <li>Easy parking and riding</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Bike">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/ktm-duke-200.jpg" alt="KTM Duke 200" class="bike-image">
+                <h3>KTM Duke 200</h3>
+                <p class="bike-price">₹180 / hour</p>
+                <ul class="bike-details">
+                    <li>200cc streetfighter</li>
+                    <li>Aggressive performance</li>
+                    <li>Modern LED lighting</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Bike">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/bajaj-avenger-220.jpg" alt="Bajaj Avenger 220" class="bike-image">
+                <h3>Bajaj Avenger 220</h3>
+                <p class="bike-price">₹160 / hour</p>
+                <ul class="bike-details">
+                    <li>220cc cruiser style</li>
+                    <li>Comfortable low seat</li>
+                    <li>Perfect for relaxed rides</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Bike">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/tvs-jupiter.jpg" alt="TVS Jupiter" class="bike-image">
+                <h3>TVS Jupiter</h3>
+                <p class="bike-price">₹80 / hour</p>
+                <ul class="bike-details">
+                    <li>110cc smart scooter</li>
+                    <li>Great fuel economy</li>
+                    <li>Light, nimble, reliable</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Bike">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cars" class="services hidden-section">
+        <h2>Car Rental Menu</h2>
+        <p class="section-subtitle">Choose from our premium cars with hourly pricing, comfort, and safety features.</p>
+        <div class="service-grid">
+            <div class="service-card">
+                <img src="images/maruti-suzuki-swift.jpg" alt="Maruti Suzuki Swift" class="car-image">
+                <h3>Maruti Suzuki Swift</h3>
+                <p class="car-price">₹250 / hour</p>
+                <ul class="car-details">
+                    <li>1.2L petrol engine</li>
+                    <li>5-seater hatchback</li>
+                    <li>Fuel-efficient and compact</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Car">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/hyundai-creta.jpg" alt="Hyundai Creta" class="car-image">
+                <h3>Hyundai Creta</h3>
+                <p class="car-price">₹350 / hour</p>
+                <ul class="car-details">
+                    <li>1.5L diesel SUV</li>
+                    <li>5-seater with space</li>
+                    <li>Modern infotainment</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Car">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/mahindra-scorpio.jpg" alt="Mahindra Scorpio" class="car-image">
+                <h3>Mahindra Scorpio</h3>
+                <p class="car-price">₹400 / hour</p>
+                <ul class="car-details">
+                    <li>2.2L diesel SUV</li>
+                    <li>7-seater family car</li>
+                    <li>Rugged and reliable</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Car">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/toyota-fortuner.jpg" alt="Toyota Fortuner" class="car-image">
+                <h3>Toyota Fortuner</h3>
+                <p class="car-price">₹500 / hour</p>
+                <ul class="car-details">
+                    <li>2.8L diesel SUV</li>
+                    <li>7-seater luxury</li>
+                    <li>Off-road capable</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Car">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/honda-city.jpg" alt="Honda City" class="car-image">
+                <h3>Honda City</h3>
+                <p class="car-price">₹300 / hour</p>
+                <ul class="car-details">
+                    <li>1.5L petrol sedan</li>
+                    <li>5-seater comfort</li>
+                    <li>Smooth ride quality</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Car">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/tata-nexon.jpg" alt="Tata Nexon" class="car-image">
+                <h3>Tata Nexon</h3>
+                <p class="car-price">₹280 / hour</p>
+                <ul class="car-details">
+                    <li>1.2L petrol SUV</li>
+                    <li>5-seater compact</li>
+                    <li>Connected car features</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Car">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/kia-seltos.jpg" alt="Kia Seltos" class="car-image">
+                <h3>Kia Seltos</h3>
+                <p class="car-price">₹380 / hour</p>
+                <ul class="car-details">
+                    <li>1.5L petrol SUV</li>
+                    <li>5-seater stylish</li>
+                    <li>Advanced safety</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Car">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/renault-duster.jpg" alt="Renault Duster" class="car-image">
+                <h3>Renault Duster</h3>
+                <p class="car-price">₹320 / hour</p>
+                <ul class="car-details">
+                    <li>1.5L diesel SUV</li>
+                    <li>5-seater adventure</li>
+                    <li>Ground clearance</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Car">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/vw-virtus.jpg" alt="Volkswagen Virtus" class="car-image">
+                <h3>Volkswagen Virtus</h3>
+                <p class="car-price">₹340 / hour</p>
+                <ul class="car-details">
+                    <li>1.0L petrol sedan</li>
+                    <li>5-seater premium</li>
+                    <li>German engineering</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Car">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/ford-ecosport.jpg" alt="Ford EcoSport" class="car-image">
+                <h3>Ford EcoSport</h3>
+                <p class="car-price">₹360 / hour</p>
+                <ul class="car-details">
+                    <li>1.5L diesel SUV</li>
+                    <li>5-seater compact</li>
+                    <li>Sporty design</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="Car">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cng" class="services hidden-section">
+        <h2>CNG Rental Menu</h2>
+        <p class="section-subtitle">Choose from our eco-friendly CNG vehicles with hourly pricing and clean energy options.</p>
+        <div class="service-grid">
+            <div class="service-card">
+                <img src="images/maruti-suzuki-celerio-cng.jpg" alt="Maruti Suzuki Celerio CNG" class="cng-image">
+                <h3>Maruti Suzuki Celerio CNG</h3>
+                <p class="cng-price">₹220 / hour</p>
+                <ul class="cng-details">
+                    <li>1.0L CNG engine</li>
+                    <li>5-seater hatchback</li>
+                    <li>Eco-friendly and economical</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="CNG">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/hyundai-santro-cng.jpg" alt="Hyundai Santro CNG" class="cng-image">
+                <h3>Hyundai Santro CNG</h3>
+                <p class="cng-price">₹200 / hour</p>
+                <ul class="cng-details">
+                    <li>1.1L CNG engine</li>
+                    <li>5-seater compact</li>
+                    <li>Low emission vehicle</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="CNG">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/tata-tiago-cng.jpg" alt="Tata Tiago CNG" class="cng-image">
+                <h3>Tata Tiago CNG</h3>
+                <p class="cng-price">₹210 / hour</p>
+                <ul class="cng-details">
+                    <li>1.2L CNG engine</li>
+                    <li>5-seater hatchback</li>
+                    <li>Connected features</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="CNG">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/mahindra-verito-cng.jpg" alt="Mahindra Verito CNG" class="cng-image">
+                <h3>Mahindra Verito CNG</h3>
+                <p class="cng-price">₹240 / hour</p>
+                <ul class="cng-details">
+                    <li>1.5L CNG engine</li>
+                    <li>5-seater sedan</li>
+                    <li>Reliable and spacious</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="CNG">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/toyota-prius-cng.jpg" alt="Toyota Prius CNG" class="cng-image">
+                <h3>Toyota Prius CNG</h3>
+                <p class="cng-price">₹400 / hour</p>
+                <ul class="cng-details">
+                    <li>1.8L hybrid CNG</li>
+                    <li>5-seater premium</li>
+                    <li>Ultra-low emissions</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="CNG">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/honda-amaze-cng.jpg" alt="Honda Amaze CNG" class="cng-image">
+                <h3>Honda Amaze CNG</h3>
+                <p class="cng-price">₹260 / hour</p>
+                <ul class="cng-details">
+                    <li>1.2L CNG engine</li>
+                    <li>5-seater sedan</li>
+                    <li>Smooth and comfortable</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="CNG">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/renault-kwid-cng.jpg" alt="Renault Kwid CNG" class="cng-image">
+                <h3>Renault Kwid CNG</h3>
+                <p class="cng-price">₹190 / hour</p>
+                <ul class="cng-details">
+                    <li>1.0L CNG engine</li>
+                    <li>5-seater compact</li>
+                    <li>Fun to drive</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="CNG">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/vw-polo-cng.jpg" alt="Volkswagen Polo CNG" class="cng-image">
+                <h3>Volkswagen Polo CNG</h3>
+                <p class="cng-price">₹280 / hour</p>
+                <ul class="cng-details">
+                    <li>1.0L CNG engine</li>
+                    <li>5-seater hatchback</li>
+                    <li>German quality</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="CNG">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/ford-figo-cng.jpg" alt="Ford Figo CNG" class="cng-image">
+                <h3>Ford Figo CNG</h3>
+                <p class="cng-price">₹230 / hour</p>
+                <ul class="cng-details">
+                    <li>1.2L CNG engine</li>
+                    <li>5-seater hatchback</li>
+                    <li>Stylish and efficient</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="CNG">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="images/kia-carens-cng.jpg" alt="Kia Carens CNG" class="cng-image">
+                <h3>Kia Carens CNG</h3>
+                <p class="cng-price">₹350 / hour</p>
+                <ul class="cng-details">
+                    <li>1.5L CNG MPV</li>
+                    <li>7-seater family</li>
+                    <li>Spacious and safe</li>
+                </ul>
+                <button class="btn book-btn" data-vehicle="CNG">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="services hidden-section about-section">
+        <div class="about-top">
+            <h2>About ezyRide</h2>
+            <p class="section-subtitle">Fast, safe, and affordable rentals for bikes, cars, and CNG vehicles—designed to keep every journey smooth.</p>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-card">
+                <h3>Our Mission</h3>
+                <p>To make city travel easy, convenient, and worry-free with transparent pricing, modern vehicles, and friendly service.</p>
+            </div>
+            <div class="about-card">
+                <h3>What We Promise</h3>
+                <p>Clean vehicles, reliable availability, and a booking experience built to save time while giving you complete control.</p>
+            </div>
+            <div class="about-card">
+                <h3>Why Choose Us</h3>
+                <p>Flexible hourly rentals, dedicated support, and a fleet that includes bikes, cars, and eco-friendly CNG options.</p>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <h3>More than a rental company</h3>
+                <p>ezyRide is built for people who want comfort, speed, and reliability without the hassle. Whether you're heading to work, making a quick delivery, or exploring the city, we make every ride feel effortless.</p>
+                <p>Our vehicles are inspected before every trip, our team is ready to support you, and our rental plans are designed to fit your schedule. That means no surprises, just great service every time.</p>
+            </div>
+            <div class="terms-box">
+                <h3>Terms & Conditions</h3>
+                <ol>
+                    <li>All bookings require a valid ID and a refundable security deposit.</li>
+                    <li>Hourly rates start from pickup; late returns may incur additional charges.</li>
+                    <li>Fuel or CNG usage is charged separately unless included in a custom rental package.</li>
+                    <li>Any damage, fines, or traffic violations are the renter's responsibility.</li>
+                </ol>
+                <p class="terms-note">By using ezyRide, you agree to follow local traffic laws and return the vehicle in the same condition it was rented.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <h3>Contact Us</h3>
+        <p>Email: info@ezyride.com | Phone: +1 (555) 123-4567</p>
+        <p>Address: 123 Main Street, City | Open: 24/7</p>
+        <p>&copy; 2024 ezyRide. All rights reserved.</p>
+         <div class="map-section">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0183897262626!2d-122.41941592345023!3d37.77492967125851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e3d7c0b0b0b%3A0x0!2s123%20Main%20Street!5e0!3m2!1sen!2sus!4v1234567890" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
